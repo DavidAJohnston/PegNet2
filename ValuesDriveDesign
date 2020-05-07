@@ -1,0 +1,62 @@
+PegNet 2.0-First Draft
+The Principles That Drive Feature Development In PegNet
+
+Values Drive Design
+Since its launch in August of 2019 the PegNet community has developed a unique set of core principles, which drive the development of the PegNet software. 
+Let’s examine those values and map out how the features of PegNet 2.0 will bring them more fully into reality.
+
+1. Universal Access
+Users should have permissionless access to PegNet regardless of their level of economic means, location, or technical ability.
+
+2. Frictionless Trading
+The cost of trading on PegNet should be a low as possible, as fast as possible, and technically easy as possible.
+
+3. User Run Network
+Every behavior that contributes to the function of the PegNet should be open to everyone, including Mining, Arbitrage, & Staking.
+
+4. Self Sovereign
+No user action in the PegNet should depend on interaction with another user. Sending, receiving, conversions, arbitrage, should all be independent actions.
+
+5. Consensus Based Oracles
+Rather than reserves or collateral, PegNet is based on the consensus of oracle prices as submitted every block by miners + stakers who have aligned incentives around PEG.
+
+6. Continuous Improvement
+The PegNet community is building a fundamentally new model for pegged assets, with this in mind improvements are always welcome and embraced as the community expects there is much to learn about securing consensus based price oracles, enabling frictionless conversions, and achieving ever more decentralization.
+
+7. Regular Hardforks
+PegNet is an early of development and needs to rapidly adapt to its environment and so regular upgrades that break the old version (known as “hardforks”) should be expected and planned for at least twice per year.
+
+8. Open Development
+PegNet is built on top of open source software and the developers practice a process of open development inviting anyone in the community to contribute and for major discussions of design, architecture, features and upgrades to be open to all.
+
+Features of PegNet 1.0
+1. 5,000 PEG reward each block for miners submitting oracle price records.
+2. Users make conversions based on these oracle price records (OPRs).
+3. pAsset to pAsset conversions are unlimited.
+4. PEG to pAsset conversions are unlimited.
+5. pAsset to PEG conversions are limited to 5,000 PEG per block.
+
+Features of PegNet 2.0
+New features bolded below.
+1. 5,000 PEG per block for current block miners.
+2. 5,000 PEG per block (set aside) for past miners via PIP 14.
+3. 5,000 PEG per block to pAsset holders as the arb reward via PIP 12
+4. 5,000 PEG per block to PEG Stakers reporting oracle prices via PIP 13.
+5. pAsset to pAsset conversions are unlimited.
+6. PEG to pAsset conversions are unlimited.
+7. pAsset to PEG conversions are unlimited via PIP 10.
+8. Detect API errors & pause conversions of affected pAssets via PIP 15.
+
+PegNet 2.0 Fulfilling Values
+The PegNet improvement proposals outlined in PIP 10, 12, 13, 14, & 15 create a series of features that bring the community much closer to its vision & values.
+1. Universal Access and a User Run Network
+By rewarding 5,000 PEG per block to two new groups: pAsset holders and PEG Stakers, the users of the system are elevated to the same status of miners and equally participate with miners in reward of new PEG tokens added to the total PEG supply.
+
+2. Frictionless Trading
+By making pAsset conversions into PEG unlimited the ease and friction of moving into and out of the PegNet system is vastly reduced. This is the key to building liquidity on external exchanges, to open up the rails between PegNet and the rest of the world, that main rail is a fully convertible PEG token.
+
+3. Consensus Based Oracles
+PIP 10’s protections against front running oracle prices, PIP 13’s addition of Stakers the oracle consensus building, and PIP 14’s set aside for past miners to counter short term 51% attacks, and PIP 15’s conversion pauses in case of API errors all make an enormously strengthen the consensus around oracle prices in PegNet and their accuracy.
+
+4. Self Sovereign
+All these improvement have been designed in a way that maintains the maximum decentralization of the PegNet protocol and respects the self sovereign actions of the individual users of PegNet.
