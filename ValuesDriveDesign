@@ -5,7 +5,7 @@ Values Drive Design
 Since its launch in August of 2019 the PegNet community has developed a unique set of core principles, which drive the development of the PegNet software. Let’s examine those values and map out how the features of PegNet 2.0 will bring them more fully into reality.
 
 1. Universal Access
-Users should have permissionless access to PegNet regardless of their level of economic means, location, or technical ability. This includes listing as many different fiats, cryptos, commodities as possible only tempered by the requirement that they have sufficient market cap and trading volume.
+Users should have permissionless access to PegNet regardless of their level of economic means, location, or technical ability. The primary way this universal access is achieved is through maximizing decentralization & lowering barriers to participate. PegNet has no central reserve, no shared collateral, no central operators, held no ICO, no pre-mine, and has no Foundation.
 
 2. Stability
 The first benefit that users gain from PegNet is the price Stability of the pAssets both inside and outside the PegNet. This is accomplished by robust oracles that secure prices inside the PegNet and by arbitragers that balance pAsset prices between the PegNet and external exchanges.
@@ -17,13 +17,13 @@ The second benefit that users gain from PegNet is deep native liquidity moving a
 The cost of conversions on PegNet should be a low as possible, as fast as possible, and technically easy as possible. Conversions will never require consent of another party. Conversions will be fast and economical. Costs and delays will only apply when necessary to protect the stability and liquidity of the PegNet.
 
 5. User Run Network
-Every behavior that contributes to the function of the PegNet should be open to everyone, including Mining, Arbitrage, & Staking.
+Every behavior that contributes to the function of the PegNet should be open to everyone, including Mining, Arbitrage, & Staking. This means in PegNet there are no privileged entities, no special servers or other parties that have a systematic advantage over the other users in the network.
 
 6. Self Sovereign
 No user action in the PegNet should depend on interaction with another user. Sending, receiving, conversions, arbitrage, should all be independent actions.
 
 7. Consensus Based Oracles
-Rather than reserves or collateral, PegNet is based on the consensus of oracle prices as submitted every block by miners + stakers who have aligned incentives around PEG.
+Rather than reserves or collateral, PegNet is based on the consensus of oracle prices as submitted every block by miners + stakers who have aligned incentives around PEG. The PegNet strives to report oracle prices and enable conversions for as many pAssets as are compelling for users to send, hold or trade. Including as many fiats, cryptos, commodities as possible, only tempered by every pAsset needing sufficient market cap & trading volume.
 
 8. Continuous Improvement
 The PegNet community is building a fundamentally new model for pegged assets, with this in mind improvements are always welcome and embraced as the community expects there is much to learn about securing consensus based price oracles, enabling frictionless conversions, and achieving ever more decentralization.
@@ -52,7 +52,7 @@ New features bolded below.
 6. PEG to pAsset conversions are unlimited.
 7. pAsset to PEG conversions are unlimited via PIP 10.
 8. Detect API errors & pause conversions of affected pAssets via PIP 15.
-9. PEG as primary gateway to convert into pAssets.
+9. PEG as primary gateway to convert into and out of pAssets.
 10. Gateway tokens added only if they reward PegNet miners / stakers.
 
 PegNet 2.0 Fulfilling Values
