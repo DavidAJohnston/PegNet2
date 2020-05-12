@@ -53,6 +53,7 @@ Effect 2: Increasing Liquidity + Closing Attack Vectors
 Features 5, 6, & 7 are all about conversions of PEG and pAssets. 
 Unlimited conversions of pAssets to pAssets inside PegNet has been a very popular and driven a lot of usage of the protocol internally. 
 However there has been limited liquidity between the PegNet and external exchanges. PIP 10 paves the way for greater liquidity of the PEG token, though this will have to be a staged process in order to avoid attack vectors discussed in the Boot Strapping Liquidity article.
+
 Finally regarding features 8, 9 & 10. There has been significant debate in the community since the first two drafts of this PegNet 2.0 proposal were written. 
 The discussion has centered around the dangers of making pAsset to PEG conversions “unlimited” as detailed in this article about Solving The Bear Whale Problem. 
 The general sentiment of this discussion is that the downsides / risks of having an unlimited conversion ability into PEG outweigh the benefits and there is an alternative method to bootstrapping the PegNet via pUSD.
