@@ -1,0 +1,77 @@
+PegNet 2.0 - Third Draft
+
+Summary
+Since its launch in August of 2019 the PegNet community has developed a unique set of core principles, which drive the development of the PegNet software and have led to amazing amounts of conversions inside the PegNet system. Over $2 Billion USD worth of pAssets have been converted at the time of this writing. At the same time, PegNet faces challenges as attackers test the limits of the decentralized oracles that power PegNet’s conversions. In addition liquidity between the PegNet and external exchanges remains low and this presents a barrier to PegNet’s broader adoption as users can enter but not easily exit value from the system.
+In this paper I openly examine how a series of PegNet Improvement Proposals known as PIPs included in the next upgrade to the software will constitute a new economic model for building liquidity, make the oracles more robust, and how to align these changes with the core values that make PegNet special.
+There are three related articles that proved too long to include in this main PegNet 2.0 article, follow these links to go in depth on each subject:
+
+The Core Values of PegNet - https://medium.com/@DJohnstonEC/the-core-values-of-pegnet-5ebcdbf68dc8
+Defending PegNet Oracle Data - https://medium.com/@DJohnstonEC/defending-pegnet-oracle-data-ced3ee5d2fb5
+Boot Strapping Liquidity In Pegnet - https://medium.com/@DJohnstonEC/draft-solving-the-bear-whale-problem-ffb7099f3641
+
+Features of PegNet 1.0
+Let’s start by examining the features of PegNet 1.0 and how they are proposed to change in PegNet 2.0
+1. 5,000 PEG reward each block for miners submitting oracle price records.
+2. Users make conversions based on these oracle price records (OPRs).
+3. pAsset to pAsset conversions are unlimited.
+4. PEG to pAsset conversions are unlimited.
+5. pAsset to PEG conversions are limited to 5,000 PEG per block.
+6. PEG & FCT as gateway tokens to convert into pAssets in PegNet.
+
+Features of PegNet 2.0
+New features bolded below.
+Increasing PEG’s Supply Curve + Increasing Demand:
+1. 5,000 PEG per block for current block miners.
+2. 5,000 PEG per block (set aside) for past miners via PIP 14.
+3. 5,000 PEG per block to pAsset holders as the arb reward via PIP 12
+4. 5,000 PEG per block to PEG Stakers adding oracle prices via PIP 13.
+Increasing Liquidity + Closing Attack Vectors:
+5. pAsset to pAsset conversions are unlimited.
+6. PEG to pAsset conversions are unlimited.
+7. pAsset to PEG conversions are averaged over many blocks in PIP 10 paving the way for greater conversions over time as PegNet scales.
+8. Detect API errors & pause conversions of affected pAssets via PIP 15.
+9. PEG as the primary burning gateway to convert value into pAssets.
+10. pUSD as the primary on ramp and off ramp for value in PegNet.
+
+2 Major Effects of Changes
+The PegNet improvement proposals outlined in PIP 10, 12, 13, 14, & 15 above create a series of features that bring the community much closer to its vision, address key oracle attack vectors and methods to boot strap liquidity in the system.
+Lets unpack the 2 major effects of these changes to the PegNet.
+
+Effect 1: Increasing PEG’s Supply Curve
+In features 1, 2, 3, and 4 we see that the total number of PEG per block will be increasing from 10,000 to 20,000. 
+This will move the annual supply curve of PegNet to a little over 1 Billion PEG rewarded per year to Miners + Stakers. 
+One benefit here is to broaden the base of the PegNet users from just miners to users seeking Staking reward for hold pAssets or PEG tokens. 
+Staking has proven a successful method of driving demand in projects and in the case of PegNet the Staking rewards are aligned with the two key needs of the system. 
+That is one, rewarding arbitragers for buying cheap pAssets and Staking it. 
+And two rewarding PEG Stakers who increase oracle security.
+
+This is a major shift and one that will hopefully bring balance to the force. 
+By rewarding 5,000 PEG per block to two new groups (pAsset holders and PEG Stakers), the users of the system are elevated to the same status of miners and equally participate with miners in the reward of new PEG tokens added to the total PEG supply. 
+The overarching goal being to make holding pAssets & PEG more attractive to users & thus the drive the demand side of the equation.
+
+Effect 2: Increasing Liquidity + Closing Attack Vectors
+Features 5, 6, & 7 are all about conversions of PEG and pAssets. 
+Unlimited conversions of pAssets to pAssets inside PegNet has been a very popular and driven a lot of usage of the protocol internally. 
+However there has been limited liquidity between the PegNet and external exchanges. PIP 10 paves the way for greater liquidity of the PEG token, though this will have to be a staged process in order to avoid attack vectors discussed in the Boot Strapping Liquidity article.
+Finally regarding features 8, 9 & 10. There has been significant debate in the community since the first two drafts of this PegNet 2.0 proposal were written. 
+The discussion has centered around the dangers of making pAsset to PEG conversions “unlimited” as detailed in this article about Solving The Bear Whale Problem. 
+The general sentiment of this discussion is that the downsides / risks of having an unlimited conversion ability into PEG outweigh the benefits and there is an alternative method to bootstrapping the PegNet via pUSD.
+Each of these 2 major effects enormously strengthen the consensus around oracle prices in PegNet and their accuracy. 
+All these improvement have been designed in a way that maintains the maximum decentralization of the PegNet protocol and respects the self sovereign actions of the individual users of PegNet.
+
+Timeline & Phases for PegNet 2.0
+PIPs 10 & 12 are nearing completion of coding. Next step testing.
+PIPs 13, 14, & 15 are nearing final design. Next step coding.
+Once all coding and all testing of the various changes to PegNet is complete the exchanges, miners, and node operators will all be alerted that there is a new version of PegNet available. 
+The community will select an activation height a few weeks in advance of the upgrade in order to give everyone running the software enough time update their systems.
+Additionally there are more advanced versions of the PIPs (such as PIP 14) that would be nice to have but would be too time consuming to code and test for the initial release of PegNet 2.0 These will be phased in via future version 2.5 type upgrades. 
+The hard fork release schedule will lead to a full number upgrade each spring and a .5 upgrade each fall. 
+So in 2020 expect version 2.5 in Q3 / Q4. While in 2021 expect versions 3.0 and 3.5 to roll out.
+
+Who Needs To Upgrade
+Anyone running a node, a solo miner, or an exchange will need to update to the PegNet 2.0 software.
+Importantly users of mining pools or users of non full node wallets, will NOT need to take any action to move to PegNet 2.0 as the mining pools and web wallets will update the software on their side automatically for the users.
+
+Conclusion: A Community Call To Action
+I encourage you to join the PegNet community discord.
+There are a lot of areas for people with all backgrounds and skills to get involved funding feature development, testing code as it is released, and spreading the word about the value PegNet brings users.
